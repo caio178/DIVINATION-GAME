@@ -31,6 +31,7 @@ class TelaReinicarSair : AppCompatActivity() {
             openConfirm()
         }
 
+        // funcionalidade nova
 
         btnReiniciar.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
